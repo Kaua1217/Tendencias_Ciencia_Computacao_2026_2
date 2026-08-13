@@ -160,8 +160,8 @@ Tendencias_Ciencia_Computacao_2026_2_Kadidja/
 
 | Etapa         | Atividade                              | Status          |
 | ------------- | -------------------------------------- | --------------- |
-| Jornada       | Missão 01 — Atividade de decolagem     | 🔄 Em andamento |
-| Unidade I     | Fundamentos de IA                      | ⏳ Pendente      |
+| Jornada       | Missão 01 — Atividade de decolagem     | ✅ Concluído |
+| Unidade I     | Fundamentos de IA                      | 🔄 Em andamento |
 | Unidade I     | Engenharia de Prompt                   | ⏳ Pendente      |
 | Unidade II    | Programação Assistida por IA           | ⏳ Pendente      |
 | Unidade III   | Low Code / No Code                     | ⏳ Pendente      |
