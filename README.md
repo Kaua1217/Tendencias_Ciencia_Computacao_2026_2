@@ -2,15 +2,15 @@
 
 Repositório acadêmico desenvolvido para a disciplina **Tendências em Ciência da Computação**, referente ao semestre **2026.2**.
 
-Este espaço será utilizado para registrar e organizar a **jornada de aprendizagem** ao longo da disciplina, reunindo atividades, desafios, pesquisas, experimentos, projetos e demais produções desenvolvidas durante o semestre.
+Este espaço será utilizado para registrar e organizar a **jornada de aprendizagem** ao longo da disciplina, reunindo atividades, desafios, pesquisas, experimentos, projetos e demais produções desenvolvidas.
 
 ---
 
 ## 🎓 Sobre a disciplina
 
-A disciplina de **Tendências em Ciência da Computação** aborda tecnologias e práticas relacionadas à evolução da Inteligência Artificial e suas aplicações no desenvolvimento de soluções computacionais.
+A disciplina de **Tendências em Ciência da Computação** aborda tecnologias e práticas relacionadas à evolução da Inteligência Artificial e suas aplicações no desenvolvimento de soluções inovadoras.
 
-Ao longo do semestre, serão explorados conceitos de **Inteligência Artificial, modelos generativos, Engenharia de Prompt, programação assistida por IA, Low Code/No Code, agentes de IA, segurança, privacidade e ética**, além do desenvolvimento de uma solução inteligente como projeto final.
+Ao longo do semestre, serão explorados conceitos de **Inteligência Artificial, modelos generativos, Engenharia de Prompt, programação assistida por IA, Low Code/No Code, agentes de IA, segurança, privacidade e ética em IA**.
 
 Os recursos e tecnologias utilizados poderão ser atualizados conforme a evolução das ferramentas e tecnologias de Inteligência Artificial.
 
@@ -103,7 +103,7 @@ A última unidade aborda a criação de agentes de Inteligência Artificial e os
 
 ## 🏆 Projeto Final
 
-Como parte da jornada da disciplina, será desenvolvido um **projeto prático para criação de uma solução inteligente**.
+Como parte da jornada da disciplina, será desenvolvido um **projeto pr��tico para criação de uma solução inteligente**.
 
 O projeto envolverá:
 
