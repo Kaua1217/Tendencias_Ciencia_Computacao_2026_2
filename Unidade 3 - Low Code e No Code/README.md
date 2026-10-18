@@ -85,9 +85,9 @@ Também foi criado um segundo cenário, **"Test sender for AI welcome email"**, 
 
 ![Configuração do módulo Simple Text Prompt](prints/02-modulo-ia.png)
 
-**Configuração do módulo do Brevo (assunto e remetente)**
+**E-mails enviados pelo Brevo (assunto, remetente e status "Aberto")**
 
-![Configuração do módulo do Brevo](prints/03-modulo-brevo.png)
+![E-mails de boas-vindas enviados e abertos no painel do Brevo](prints/03-envios-brevo.png)
 
 **Histórico de execuções com status SUCCESS**
 
