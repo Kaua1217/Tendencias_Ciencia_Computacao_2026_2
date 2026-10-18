@@ -39,6 +39,7 @@ A automação foi construída no Make como um **cenário** chamado **"AI welcome
 |---|---|---|
 | 1 | **Webhooks → Custom webhook** | Fica escutando uma URL. Quando um formulário envia um cadastro com `name`, `email` e `interest`, o cenário é disparado automaticamente. |
 | 2 | **Make AI Toolkit → Simple Text Prompt** | Recebe os dados do cadastro e, a partir de um prompt com um modelo de texto, gera um e-mail de boas-vindas curto e personalizado em português. Modelo utilizado: **small** (gpt-5-nano), pela conexão *Make AI Provider*. |
+| — | **Filtro "Has an email"** | Entre a IA e o Brevo, só deixa o fluxo seguir se o cadastro tiver um e-mail preenchido, evitando tentativas de envio sem destinatário. |
 | 3 | **Brevo → Send an email** | Envia o texto gerado para o e-mail da pessoa cadastrada, com o assunto **"Boas-vindas, {nome}!"** e o remetente **"A Equipe"**. |
 
 ### Exemplo de entrada (dados enviados ao webhook)
