@@ -97,6 +97,8 @@ Também foi criado um segundo cenário, **"Test sender for AI welcome email"**, 
 
 ![E-mail de boas-vindas recebido](prints/05-email-recebido.png)
 
+> Os três e-mails da conversa vieram do mesmo cadastro de teste, e cada um tem um texto diferente, porque a IA reescreve a mensagem a cada envio. No segundo, um trecho do interesse ficou em inglês ("automating my school paperwork"), porque o dado de teste foi enviado em inglês e a IA o copiou sem traduzir. Esse comportamento está discutido na análise crítica.
+
 ---
 
 ## 4. 💡 Justificativa da escolha
@@ -137,7 +139,7 @@ Também foi criado um segundo cenário, **"Test sender for AI welcome email"**, 
 | **Dependência da plataforma (vendor lock-in)** | O fluxo só existe dentro do Make. Mudar de plataforma significa reconstruir tudo. |
 | **Mudanças de versão da própria plataforma** | No primeiro teste, o módulo de IA falhou com o erro *"You are using old version of the app"*, e foi preciso atualizá-lo para o Make AI Toolkit atual e escolher o modelo manualmente no editor. |
 | **Custos e limites de uso** | Cada execução consome créditos do Make e da cota do Brevo. Em grande volume, o plano gratuito não seria suficiente. |
-| **Respostas da IA não são 100% previsíveis** | A IA pode gerar textos diferentes a cada vez e, em alguns casos, incluir conteúdo indesejado. Foi preciso refinar o prompt porque, em uma versão inicial, trechos que não faziam parte do e-mail estavam indo junto para o texto. |
+| **Respostas da IA não são 100% previsíveis** | A IA pode gerar textos diferentes a cada vez e, em alguns casos, incluir conteúdo indesejado. Foi preciso refinar o prompt porque, em uma versão inicial, trechos que não faziam parte do e-mail estavam indo junto para o texto. Nos testes, a mesma entrada gerou três textos diferentes, e em um deles o interesse ficou em inglês. |
 | **Configurações obrigatórias pouco visíveis** | O Brevo exigia um remetente configurado, o que só ficou claro depois de um teste. |
 | **Segurança** | A URL do webhook funciona como uma "chave": se for exposta, qualquer um pode disparar e-mails. Seria necessário adicionar validação (por exemplo, um token) para uso real. |
 | **Privacidade de dados** | Nome, e-mail e interesse passam por serviços de terceiros (Make, provedor de IA e Brevo), o que exige atenção à LGPD em um uso real. |
