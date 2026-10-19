@@ -75,8 +75,6 @@ Também foi criado um segundo cenário, **"Test sender for AI welcome email"**, 
 
 ### Prints
 
-<!-- Salve as imagens na pasta prints/ com os nomes abaixo (ou ajuste os caminhos). -->
-
 **Visão geral do cenário (3 módulos ligados)**
 
 ![Visão geral do cenário no Make](prints/01-cenario-visao-geral.png)
@@ -149,8 +147,6 @@ Também foi criado um segundo cenário, **"Test sender for AI welcome email"**, 
 
 ## 6. 🧠 Reflexão
 
-<!-- Revise este texto com as percepções do grupo. -->
-
 O projeto mostrou na prática a principal promessa do Low Code / No Code: **sair da ideia para uma solução funcionando muito rápido**, combinando ferramentas que já existem em vez de construir tudo do zero. Em poucas horas, um fluxo com webhook, IA generativa e envio de e-mail estava ativo e testado.
 
 Ao mesmo tempo, ficou claro que **"pouco código" não significa "nenhum conhecimento técnico"**. Para fazer a solução funcionar foi preciso entender o que é um webhook, como os dados passam de um módulo para outro, interpretar mensagens de erro no histórico de execuções e refinar o prompt da IA. Os erros encontrados (módulo de IA desatualizado, remetente obrigatório no Brevo, texto da IA com trechos indesejados) foram resolvidos com raciocínio de depuração, igual ao de um projeto com código.
@@ -163,16 +159,13 @@ Por fim, a experiência reforçou que o Low Code é ótimo para **protótipos, a
 
 ## 7. 👥 Colaboração em grupo
 
-<!-- Preencha com os nomes reais e ajuste as responsabilidades. -->
-
 | Integrante | Responsabilidades |
 |---|---|
-| Kauã Sousa ([@Kaua1217](https://github.com/Kaua1217)) | _[preencher: ex. montagem do cenário no Make e integração com o Brevo]_ |
-| _[Nome do integrante 2]_ | _[preencher: ex. criação e refinamento do prompt da IA]_ |
-| _[Nome do integrante 3]_ | _[preencher: ex. testes do fluxo e registro dos prints]_ |
-| _[Nome do integrante 4]_ | _[preencher: ex. documentação no GitHub e análise crítica]_ |
+| Gabriel Tavares Pereira Silva | Montagem do cenário no Make (webhook, módulo de IA e filtro) e integração com o Brevo |
+| Julia Roberta de Fatima Sousa Araujo | Criação e refinamento do prompt da IA, testes do fluxo e registro dos prints |
+| Kauã de Sousa Franco da Costa | Documentação no GitHub e análise crítica (vantagens, limitações e reflexão) |
 
-**Como o grupo se organizou:** _[preencher: ex. reuniões, divisão de tarefas, ferramentas de comunicação usadas]_
+**Como o grupo se organizou:** o trabalho foi dividido em três frentes que dependiam uma da outra. Primeiro foi montada a estrutura do cenário no Make, depois o prompt foi ajustado a partir dos resultados dos testes e, por fim, tudo foi registrado no GitHub junto com a análise do que funcionou e do que limitou a solução.
 
 ---
 
