@@ -2,9 +2,8 @@
 
 ## Identificação
 
-- **Nome:** Kauã de Sousa e [NOME DO(A) COLEGA]
-- **Turma:** [TURMA]
-- **Data:** 29/10/2026
+- **Nome:** Kauã de Sousa e Gabriel Tavares
+- **Turma:** N1
 - **Ferramenta de IA utilizada:** Claude (Anthropic), via Claude Code
 - **Problema escolhido:** Opção A — Organização de Arquivos
 
